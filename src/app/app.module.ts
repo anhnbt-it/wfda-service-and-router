@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { TimelinesComponent } from './timelines/timelines.component';
 import { YoutubePlaylistComponent } from './youtube-playlist/youtube-playlist.component';
 import { YoutubePlayerComponent } from './youtube-player/youtube-player.component';
+import { DictionaryPageComponent } from './dictionary-page/dictionary-page.component';
+import { DictionaryDetailsComponent } from './dictionary-details/dictionary-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TimelinesComponent,
     YoutubePlaylistComponent,
-    YoutubePlayerComponent
+    YoutubePlayerComponent,
+    DictionaryPageComponent,
+    DictionaryDetailsComponent
   ],
   imports: [
     BrowserModule,
