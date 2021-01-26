@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "service-and-router"
+  "defaultProject": "service-and-router",
+  "cli": {
+    "analytics": "7ad1dc2e-476b-4388-a4d7-9bfda5dbc97f"
+  }
 }
