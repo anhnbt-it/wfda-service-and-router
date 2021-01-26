@@ -1,0 +1,20 @@
+import { Component, OnInit } from '@angular/core';
+import { YoutubeService } from '../youtube.service';
+
+@Component({
+  selector: 'app-youtube-playlist',
+  templateUrl: './youtube-playlist.component.html',
+  styleUrls: ['./youtube-playlist.component.css']
+})
+export class YoutubePlaylistComponent implements OnInit {
+
+  playlist: any[] = this.youtubeService.findAll();
+
+  constructor(
+    private youtubeService: YoutubeService
+  ) { }
+
+  ngOnInit(): void {
+  }
+
+}
